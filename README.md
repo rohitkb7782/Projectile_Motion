@@ -1,4 +1,4 @@
-# Projectile Motion Simulation
+# Scaling Laws in Projectile Motion with Quadratic Drag
 
 A computational physics project investigating projectile motion through numerical simulation. The project begins with ideal projectile motion, where an analytical solution provides a way to validate Euler's Method, and then extends the model to include quadratic air resistance.
 
@@ -139,7 +139,7 @@ The quadratic drag parameter $c$ was varied while keeping the other physical par
 
 ![Drag Trajectories](images/drag_trajectories.png)
 
-**Figure 3.** Projectile trajectories for several values of the quadratic drag parameter (c), with the remaining physical parameters held constant.
+**Figure 3.** Projectile trajectories for several values of the quadratic drag parameter $c$, with the remaining physical parameters held constant.
 
 ### 4. Optimal Launch Angle and Parameter Scaling
 
@@ -161,7 +161,7 @@ The resulting curves overlap closely, suggesting that the optimal launch angle i
 
 ![Optimal launch angle vs drag strength](images/optimal_angle_vs_drag.png)
 
-**Figure 4.** Optimal launch angle as a function of drag strength, showing the overlap obtained from different parameterizations that produce the same dimensionless parameter (\alpha).
+**Figure 4.** Optimal launch angle as a function of drag strength, showing the overlap obtained from different parameterizations that produce the same dimensionless parameter $\alpha$.
 
 ### 5. Trajectory Scaling Test
 
