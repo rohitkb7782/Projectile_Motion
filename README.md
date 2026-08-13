@@ -91,6 +91,66 @@ $$
 
 Unlike the ideal projectile model, the acceleration now depends on the instantaneous velocity, making the system nonlinear.
 
+### Nondimensionalization
+
+The appearance of $\alpha$ can be made explicit by nondimensionalizing the equations of motion. For the quadratic-drag model,
+
+$$
+m\frac{d\mathbf{v}}{dt}=
+-mg\hat{\mathbf{y}}
+-c|\mathbf{v}|\mathbf{v}
+$$
+
+Using the initial speed $v_0$ to define the characteristic velocity, choose the natural projectile scales
+
+$$
+L=\frac{v_0^2}{g},
+\qquad
+T=\frac{v_0}{g}
+$$
+
+Define dimensionless position, time, and velocity variables by
+
+$$
+\mathbf{r}=L\mathbf{r}^\*,
+\qquad
+t=Tt^\*,
+\qquad
+\mathbf{v}=v_0\mathbf{v}^\*
+$$
+
+Then
+
+$$
+\frac{d\mathbf{v}}{dt}=
+\frac{v_0}{T}\frac{d\mathbf{v}^\*}{dt^\*}=
+g\frac{d\mathbf{v}^\*}{dt^\*}
+$$
+
+Substituting these scalings into the equation of motion gives
+
+$$
+mg\frac{d\mathbf{v}^\*}{dt^\*}=
+-mg\hat{\mathbf{y}}
+-cv_0^2|\mathbf{v}^\*|\mathbf{v}^\*
+$$
+
+Dividing by $mg$ gives the dimensionless equation
+
+$$
+\frac{d\mathbf{v}^\*}{dt^\*}=
+-\hat{\mathbf{y}}-
+\alpha|\mathbf{v}^\*|\mathbf{v}^\*
+$$
+
+where
+
+$$
+\alpha=\frac{cv_0^2}{mg}
+$$
+
+Thus, $\alpha$ is not simply a convenient dimensionless combination: it is the parameter that remains after the equations are nondimensionalized using the natural gravitational and launch-speed scales. This predicts that systems with different values of $c$, $v_0$, and $m$ should have the same dimensionless dynamics whenever they have the same $\alpha$.
+
 ## Numerical Method
 
 The equations of motion are solved using Euler's Method:
