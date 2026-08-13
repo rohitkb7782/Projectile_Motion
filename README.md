@@ -101,12 +101,12 @@ m\frac{d\mathbf{v}}{dt}=
 -c|\mathbf{v}|\mathbf{v}
 $$
 
-Using the initial speed $v_0$ to define the characteristic velocity, choose the natural projectile scales
+To nondimensionalize the system, the initial speed $v_0$ provides a characteristic velocity scale, while $g$ provides the characteristic acceleration scale. These quantities determine the corresponding characteristic time and length scales:
 
 $$
-L=\frac{v_0^2}{g},
+T=\frac{v_0}{g},
 \qquad
-T=\frac{v_0}{g}
+L=\frac{v_0^2}{g}.
 $$
 
 Define dimensionless position, time, and velocity variables by
