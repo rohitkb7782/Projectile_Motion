@@ -239,9 +239,7 @@ three physically different parameterizations were constructed:
 * varying $v_0$ while fixing $c$ and $m$,
 * varying $m$ while fixing $c$ and $v_0$.
 
-In each case, the parameters were chosen so that the resulting systems had the same value of $\alpha$.
-
-The trajectories were then nondimensionalized and compared.
+In each case, the parameters were chosen so that the resulting systems had the same value of $\alpha$. The trajectories were then nondimensionalized using $X = gx/v_0^2$ and $Y = gy/v_0^2$, and the resulting dimensionless trajectories were compared.
 
 ![Trajectory scaling](images/trajectory_scaling.png)
 
