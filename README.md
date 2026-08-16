@@ -266,13 +266,13 @@ provides a natural measure of drag strength relative to gravity.
 ## Project Structure
 
 ```text
-Projectile_Motion/
-├── main.py           Runs simulations and generates plots
-├── physics.py        Defines the equations of motion
-├── solvers.py        Implements numerical integration methods
-├── analysis.py       Performs interpolation, optimization, and analysis
-├── requirements.txt  Lists project dependencies
-└── README.md         Project documentation
+Scaling-Laws-in-Projectile-Motion-with-Quadratic-Drag/
+├── main.py
+├── physics.py
+├── solvers.py
+├── analysis.py
+├── requirements.txt
+└── README.md
 ```
 
 ## Requirements
@@ -286,8 +286,8 @@ Projectile_Motion/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/rohitkb7782/Projectile_Motion.git
-cd Projectile_Motion
+git clone https://github.com/rohitkb7782/Scaling-Laws-in-Projectile-Motion-with-Quadratic-Drag.git
+cd Scaling-Laws-in-Projectile-Motion-with-Quadratic-Drag
 ```
 
 ### 2. Install the dependencies
